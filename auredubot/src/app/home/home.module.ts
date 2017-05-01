@@ -14,7 +14,14 @@ import { SharedModule } from 'app/shared/shared.module';
     CommonModule,
     SharedModule
   ],
-  declarations: [WelcomeComponentComponent, InformationsComponentComponent, WelcomeMessageComponentComponent,CommentsCarouselComponent, PicturesCarouselComponent, HomeMainComponent],
+  declarations: [
+    WelcomeComponentComponent,
+    InformationsComponentComponent,
+    WelcomeMessageComponentComponent,
+    CommentsCarouselComponent,
+    PicturesCarouselComponent,
+    HomeMainComponent
+  ],
   exports: [HomeMainComponent]
 })
 export class HomeModule { }
