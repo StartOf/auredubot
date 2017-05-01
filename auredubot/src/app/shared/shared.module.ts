@@ -8,6 +8,6 @@ import { FooterComponent } from './footer/footer.component';
     CommonModule
   ],
   declarations: [NavbarComponent, FooterComponent],
-  exports: [NavbarComponent]
+  exports: [NavbarComponent, FooterComponent]
 })
 export class SharedModule { }
